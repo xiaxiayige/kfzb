@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F5FE"
+    android:orientation="vertical"
+     >
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0277BD"
+        android:text="tag"
+        android:typeface="monospace"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:id="@+id/post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0277BD"
+        android:text="标题"
+        android:typeface="monospace"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/post_excerpt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0288D1"
+         android:padding="8dp"
+        android:text="描述"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/post_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#039BE5"
+        android:gravity="right"
+        android:padding="8dp"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
